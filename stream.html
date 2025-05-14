@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <!-- Open Graph Meta Tags -->
-<meta property="og:title" content="CALAMITY" />
-<meta property="og:description" content="Be The Best You Can Be" />
+    <!-- Open Graph Meta Tags -->
+<meta property="og:title" content="BIG SKILL GORILLA LEAUGE" />
+<meta property="og:description" content="MONKEH" />
 <meta property="og:image" content="logo.png" />
 <meta property="og:image:width" content="1200" />
 <meta property="og:image:height" content="630" />
@@ -16,21 +16,35 @@
 
   <link rel="icon" href="/logo.png" type="image/x-icon">
   <meta charset="UTF-8">
-  <title>CALAMITY</title>
+  <title>BSGL – Live & Replays</title>
   <link rel="stylesheet" href="styles.css">
+  
 </head>
 <body>
   <header>
-    <h1>CLMTY</h1>
-    <p>Be The Best You Can Be</p>
+    <h1>BSGL Live Matches</h1>
     <div id="nav-placeholder"></div>
   </header>
 
   <main>
-    <section class="intro">
-      <h2>We welcome you</h2>
-      <p>Join our team and play with the best, against the best</p>
-      <p>Matches, fun, helpful people - all in CLMTY</p>
+    <section class="live-stream">
+      <h2>you can watch BSGL matches here</h2>
+      <iframe
+  src="https://player.twitch.tv/?channel=bsgl_official&parent=clmty.bigskillgl.online"
+  frameborder="0"
+  allowfullscreen
+  height="480"
+  width="854">
+</iframe>
+
+    </section>
+
+    <section class="replays">
+      <h2>Match Replays</h2>
+      <p>Watch the most intense moments again:</p>
+      <ul>
+        <p>no replays for now :)</p>
+      </ul>
     </section>
   </main>
 
@@ -44,5 +58,6 @@
         document.getElementById("nav-placeholder").innerHTML = data;
       });
   </script>
+  
 </body>
 </html>
